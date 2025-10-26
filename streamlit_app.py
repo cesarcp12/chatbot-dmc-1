@@ -5,7 +5,7 @@ import requests
 import tempfile
 from pinecone import Pinecone
 from langchain_community.document_loaders import PyPDFLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_huggingface.chat_models import ChatHuggingFace
 from langchain_huggingface import HuggingFaceEndpoint
