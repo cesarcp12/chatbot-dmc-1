@@ -1,2 +1,11 @@
 streamlit
-openai
+langchain
+pinecone-client
+sentence-transformers
+pypdf 
+langchain-pinecone
+langchain-community 
+langchain-huggingface 
+huggingface_hub 
+unstructured
+requests
